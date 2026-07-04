@@ -208,11 +208,11 @@ FlowPepDock keeps dataset and result assumptions in explicit contract files:
 
 - `FLOW_DATASET_CONTRACT.md` defines official Flow/PoseCred-IPG data entry
   points and checkpoint assumptions.
-- `FLOW_RESULT_CONTRACT.md` defines current result directories and reporting
-  conventions.
-- `docs/QUICKSTART_RUNTIME.md` keeps the operational command set.
-- `docs/REPO_STATUS.md` records the active/archived boundary of the repository.
-- `docs/ACTIVE_FLOW_POSECRED_DATASETS.md` summarizes active dataset assets.
+- `FLOW_RESULT_CONTRACT.md` summarizes runtime outputs, result reporting, and
+  artifact publication conventions.
+- `docs/FILE_STRUCTURE.md` provides a public overview of the repository layout.
+- `docs/RELEASE_ASSETS.md` lists external checkpoints, optional caches, target
+  paths, and checksum expectations.
 
 If dataset paths, checkpoints, or key hyperparameters change, update the contract
 files and the README in the same pull request.
