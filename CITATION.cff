@@ -4,7 +4,7 @@ title: "FlowPepDock: Flow-based protein-peptide docking"
 authors:
   - family-names: "Zhang"
     given-names: "Borui"
-repository-code: "https://github.com/your-org/FlowPepDock"
+repository-code: "https://github.com/AdingWonderfulAdventure/FlowPepDock"
 license: "MIT"
 version: "0.1.0"
 date-released: "2026-07-03"

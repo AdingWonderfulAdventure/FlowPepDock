@@ -23,21 +23,21 @@ datasets should be distributed separately.
 
 ```text
 FlowPepDock/
-├── inference.py                         # FlowPepDock inference entry point
-├── train_flow.py                        # Flow model training entry point
-├── scoreing.py                          # Optional PyRosetta rescoring script
-├── default_inference_args.yaml          # Default inference configuration
-├── flowpepdock_env.yaml                 # Conda environment specification
-├── requirement.txt                      # Pip-only Python dependencies
-├── models/                              # Model definitions
-├── dataset/                             # Protein/peptide feature builders
-├── utils/                               # Geometry, sampling, flow, and parsing utilities
-├── posecred_ipg/                        # PoseCred-IPG rescoring subproject
-├── train_models/                        # Model config directory; checkpoints are external
-├── examples/csv/                        # Small example CSV inputs
-├── docs/                                # Runtime, dataset, and project documentation
-├── notes/                               # Maintainer notes and historical context
-└── data/runtime_tables/                 # Versioned CSV entry tables
+|-- inference.py                         # FlowPepDock inference entry point
+|-- train_flow.py                        # Flow model training entry point
+|-- scoreing.py                          # Optional PyRosetta rescoring script
+|-- default_inference_args.yaml          # Default inference configuration
+|-- flowpepdock_env.yaml                 # Conda environment specification
+|-- requirement.txt                      # Pip-only Python dependencies
+|-- models/                              # Model definitions
+|-- dataset/                             # Protein/peptide feature builders
+|-- utils/                               # Geometry, sampling, flow, and parsing utilities
+|-- posecred_ipg/                        # PoseCred-IPG rescoring subproject
+|-- train_models/                        # Model config directory; checkpoints are external
+|-- examples/csv/                        # Small example CSV inputs
+|-- docs/                                # Runtime, dataset, and project documentation
+|-- notes/                               # Maintainer notes and historical context
+`-- data/runtime_tables/                 # Versioned CSV entry tables
 ```
 
 Large generated outputs, checkpoints, PDB/CIF files, caches, and local datasets
