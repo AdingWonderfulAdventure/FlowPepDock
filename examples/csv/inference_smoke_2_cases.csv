@@ -1,0 +1,3 @@
+group_id,complex_name,receptor_pdb,peptide_pdb
+pepseq_7bbg,L_7bbg-R_7bbg,examples/pdb/7bbg/receptor.pdb,examples/pdb/7bbg/peptide.pdb
+pepseq_7al2,L_7al2-R_7al2,examples/pdb/7al2/receptor.pdb,examples/pdb/7al2/peptide.pdb

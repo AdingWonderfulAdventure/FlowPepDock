@@ -1,0 +1,7 @@
+tag,report_path,notes,val_top1_success,val_global_top1_success,val_top5_success,val_mrr,val_ndcg,total_seconds
+graph_main_npz,/root/FlowPepDock/tmp/posecred_full_train_graph_v7_nobad_groupfix/eval_report_valonly.json,current best checkpoint,0.5470798569725864,0.5136518771331058,0.7318235995232419,0.6256527044667688,0.9345137940941872,
+graph_shard_seed20260320,/root/FlowPepDock/tmp/posecred_full_train_graph_v9_shard_nobad_groupfix/eval_report_valonly.json,shard main seed 20260320,0.5351609058402861,0.5136518771331058,0.7306317044100119,0.6181456571504248,0.932024803938096,
+graph_shard_seed20260321,/root/FlowPepDock/tmp/posecred_full_train_graph_v10_shard_nobad_seed20260321/train_report.json,shard main seed 20260321 train report best metric only,0.5387365911799762,,,,,325.50372627499746
+graph_shard_seed20260322,/root/FlowPepDock/tmp/posecred_full_train_graph_v11_shard_nobad_seed20260322/train_report.json,shard main seed 20260322 train report best metric only,0.5411203814064363,,,,,318.93572977301665
+stats_baseline_npz,/root/FlowPepDock/tmp/posecred_full_train_stats_v5_groupfix/eval_report.json,npz stats baseline,0.3766388557806913,0.34812286689419797,0.6924910607866508,0.5070969786404828,0.9023578189458119,
+stats_baseline_shard,/root/FlowPepDock/tmp/posecred_full_train_stats_v6_shard_groupfix/eval_report.json,shard stats baseline,0.38498212157330153,0.36177474402730375,0.6936829558998808,0.5129448322833304,0.9049760588821769,

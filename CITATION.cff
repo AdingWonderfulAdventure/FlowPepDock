@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use FlowPepDock in your research, please cite this software."
+title: "FlowPepDock: Flow-based protein-peptide docking"
+authors:
+  - family-names: "Zhang"
+    given-names: "Borui"
+repository-code: "https://github.com/your-org/FlowPepDock"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-07-03"
+keywords:
+  - protein-peptide docking
+  - flow matching
+  - structural biology
+  - pose ranking
+abstract: "FlowPepDock is a research codebase for flow-based protein-peptide docking and optional PoseCred-IPG pose rescoring."

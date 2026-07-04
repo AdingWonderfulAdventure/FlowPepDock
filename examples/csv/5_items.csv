@@ -1,0 +1,6 @@
+complex_name,complex_pdb,receptor_chains,peptide_chains,receptor_pdb,peptide_pdb
+7al2,,,,pdb_dataset/test/RefPepDB-RecentSet/7al2/7al2_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7al2/7al2_peptide.pdb
+7aos,,,,pdb_dataset/test/RefPepDB-RecentSet/7aos/7aos_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7aos/7aos_peptide.pdb
+7arx,,,,pdb_dataset/test/RefPepDB-RecentSet/7arx/7arx_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7arx/7arx_peptide.pdb
+7atr,,,,pdb_dataset/test/RefPepDB-RecentSet/7atr/7atr_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7atr/7atr_peptide.pdb
+7b9o,,,,pdb_dataset/test/RefPepDB-RecentSet/7b9o/7b9o_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7b9o/7b9o_peptide.pdb

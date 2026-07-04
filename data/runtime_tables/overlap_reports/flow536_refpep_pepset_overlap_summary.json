@@ -1,0 +1,17 @@
+{
+  "flow536_total": 536,
+  "refpep_recent_total": 523,
+  "pepset_total": 185,
+  "flow536_and_refpep_recent": 398,
+  "flow536_and_pepset": 138,
+  "refpep_recent_and_pepset": 0,
+  "all_three": 0,
+  "flow536_only": 0,
+  "refpep_recent_only": 125,
+  "pepset_only": 47,
+  "flow536_and_refpep_recent_only": 398,
+  "flow536_and_pepset_only": 138,
+  "refpep_recent_and_pepset_only": 0,
+  "flow536_in_union_recent_pepset": 536,
+  "flow536_not_in_union_recent_pepset": 0
+}

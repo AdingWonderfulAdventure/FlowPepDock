@@ -1,0 +1,5 @@
+from .engine.train import *
+from .engine.train import main
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,118 @@
+batch_size: 10
+cache_path: null
+center_max_distance: 30
+config: null
+cross_cutoff_bias: 12
+cross_cutoff_weight: 2
+cross_distance_embed_dim: 32
+cross_max_distance: 80
+cross_max_neighbors: 32
+cudnn_benchmark: true
+data_dir: null
+dihediral_dim: 4
+distance_embed_dim: 32
+dropout: 0.0
+dynamic_max_cross: true
+edge_feature_dim: 103
+ema_rate: 0.999
+embedding_scale: 10000
+embedding_type: sinusoidal
+esm_embeddings_path_test: null
+esm_embeddings_path_train: inline
+esm_embeddings_path_val: inline
+esm_embeddings_peptide_test: inline
+esm_embeddings_peptide_train: inline
+esm_embeddings_peptide_val: inline
+gpu: 0
+training_mode: flow
+embedding_mode: esm
+inference:
+  peptide_source: pdb
+flow:
+  time_sampling: mixed
+  beta_alpha: 4.0
+  beta_beta: 2.0
+  t_min: 0.2
+  t_max: 1.0
+  mix_fixed_t: 0.6
+  mix_fixed_prob: 0.6
+  mix_beta_alpha: 8.0
+  mix_beta_beta: 4.0
+  mix_beta_min: 0.5
+  mix_beta_max: 0.9
+  mix_beta_prob: 0.3
+  mix_small_min: 0.2
+  mix_small_max: 0.4
+  mix_small_prob: 0.1
+  tr_sampling: gaussian_shell
+  tr_r_min: 6.0
+  tr_r_max: 16.0
+  tr_r_mu: 12.0
+  tr_r_sigma: 2.0
+  tr_center_mode: pep_com
+  tr_min_dist: 1.5
+  tr_reject_max_tries: 30
+  rot_repr: rot6d_x1
+  rot_target_mode: const_frame
+  rot_head_mode: absolute
+  rot_noise_mode: isotropic
+  rot_axis_ref_mode: none
+  rot_contact_radius: 8.0
+  rot_contact_min_points: 6
+  rot_cls_bins: 0
+  rot_cls_target_mode: kabsch
+  sigma_tr_max: 10.0
+  sigma_rot_max: 3.14
+  sigma_tor_bb_max: 0.8
+  sigma_tor_sc_max: 0.5
+  loss_weights:
+    tr: 12.0
+    rot: 16.0
+    rot_target_scale: 1.0
+    rot_loss_mode: frame_vector
+    rot_frame_axis: xyz
+    rot_loss_t_min: 0.0
+    tor_bb: 0.5
+    tor_sc: 0.2
+    tr_scale: 10.0
+    pose_align: 0.0
+    triplet_align: 0.0
+    rot_cls_weight: 0.0
+    coord_align: 0.0
+    ca_coord: 0.0
+    clash: 5.0
+    clash_min_dist: 2.0
+    clash_unroll_steps: 10
+sampling:
+  num_steps_flow: 50
+  solver_flow: euler
+intra_dim: 5
+log_dir: null
+lr: 5.0e-05
+warmup_steps: 0
+warmup_ratio: 0.0
+warmup_epochs: null
+max_radius: 5.0
+n_epochs: 300
+total_steps: 30300
+no_batch_norm: false
+ns: 48
+num_conv_layers: 4
+num_dataloader_workers: 0
+num_gpu: 3
+nv: 10
+pep_amino_dim: 104
+pin_memory: false
+rec_amino_dim: 22
+run_name: rapidock_local
+scheduler: cosine
+scheduler_patience: 50
+sigma_embed_dim: 32
+split_test: null
+split_train: /root/RAPiDock/data/rebuild_isolated/rebuild_20251221_163301/11_split_train_val_9to1/train.csv
+split_val: /root/RAPiDock/data/rebuild_isolated/rebuild_20251221_163301/11_split_train_val_9to1/val.csv
+test_sigma_intervals: true
+top_k: 24
+use_ema: true
+use_second_order_repr: false
+w_decay: 0.0001

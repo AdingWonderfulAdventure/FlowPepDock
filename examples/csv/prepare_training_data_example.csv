@@ -1,0 +1,6 @@
+# 本示例用于展示CSV字段含义，真实运行前请删除以#开头的说明行。
+complex_name,complex_pdb,receptor_chains,peptide_chains,receptor_pdb,peptide_pdb
+# 示例1：提供复合物PDB以及受体/肽链ID，脚本会自动拆分链
+sample_from_complex,pdb_dataset/test/RefPepDB-RecentSet/7al2/complex.pdb,A,B,,
+# 示例2：受体和肽已经分别保存，直接把路径填在receptor_pdb/peptide_pdb即可
+7al2,,,,pdb_dataset/test/RefPepDB-RecentSet/7al2/7al2_protein_pocket.pdb,pdb_dataset/test/RefPepDB-RecentSet/7al2/7al2_peptide.pdb

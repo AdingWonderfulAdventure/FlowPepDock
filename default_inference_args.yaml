@@ -1,0 +1,11 @@
+N: 10
+model_dir: train_models/CGTensorProductEquivariantModel
+ckpt: flowpepdock_best.pt
+scoring_function: none
+confidence_ckpt: null
+confidence_model_dir: null
+batch_size: 16
+amp: false
+flow_num_steps: 10
+flow_solver: euler
+prealign_to_native_center: true

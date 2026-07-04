@@ -1,0 +1,16 @@
+{
+  "val_total": 2.2679597536722818,
+  "val_listwise": 2.1983178368321172,
+  "val_pairwise": 0.1366878350575765,
+  "val_dockq": 0.006489952543267497,
+  "val_bad": 0.6899571507065384,
+  "val_top1_success": 0.5470798569725864,
+  "val_top5_success": 0.7318235995232419,
+  "val_ndcg": 0.9345137940941872,
+  "val_mrr": 0.6256527044667688,
+  "val_spearman": 0.33624524720027776,
+  "val_global_top1_success": 0.5136518771331058,
+  "val_global_top5_success": 0.6996587030716723,
+  "val_global_top10pct_enrichment": 3.1793562529724437,
+  "val_best_of_group_retrieval_success": 0.9897610921501706
+}
