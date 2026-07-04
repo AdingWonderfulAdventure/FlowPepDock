@@ -12,8 +12,6 @@ Use this checklist before pushing a public repository or cutting a release.
 - `FLOW_DATASET_CONTRACT.md` reflects the official dataset and checkpoint
   contract.
 - `FLOW_RESULT_CONTRACT.md` reflects the official result/reporting contract.
-- `docs/PAPER_REPOSITORY_ALIGNMENT.md` maps manuscript tables to result sources.
-- `docs/GITHUB_UPLOAD_DECISION.md` records commit/ignore/artifact decisions.
 - `CITATION.cff` contains citation metadata.
 - `LICENSE` and `NOTICE.md` are present and consistent.
 - `.gitignore` and `.dockerignore` exclude generated and local-only assets.
@@ -30,15 +28,13 @@ Use this checklist before pushing a public repository or cutting a release.
 - Personal thesis/defense artifacts, temporary review bundles, and scratch files.
 - Secrets, private paths, credentials, tokens, and machine-specific config.
 
-## Paper Alignment
+## Paper Artifacts
 
-- Verify `lunwen/小论文.docx` headline values against
-  `docs/PAPER_REPOSITORY_ALIGNMENT.md`.
-- Do not mix the current small-paper tclip-step3 strict-536 table with the older
-  `flowpepdock_best.pt` strict-536 table.
-- Keep paper figures and result archives out of the normal code repository unless
-  they are intentionally published as a separate supplement or release asset.
-
+- Keep manuscript sources, generated figures, timing artifacts, and full result
+  archives out of the normal code repository unless they are intentionally
+  published as a separate supplement or release asset.
+- Keep public-facing documentation focused on code usage, installation,
+  external assets, and reproducibility inputs.
 ## Recommended Validation
 
 ```bash

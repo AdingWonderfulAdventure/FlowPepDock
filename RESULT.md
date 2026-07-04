@@ -46,4 +46,4 @@ PoseCred-IPG runtime values reported for this setting are 8.29 s for 1,000 poses
 
 - Flow official CSV entries in this public folder are `data/runtime_tables/flow_train_rel.csv`, `data/runtime_tables/flow_val_rel.csv`, and `data/runtime_tables/flow_infer_test536_rel.csv`.
 - Model checkpoints and structure assets are not included in Git; obtain them separately as described in `README.md` and `docs/INSTALL.md`.
-- Detailed paper-to-repository alignment is summarized in `docs/PAPER_REPOSITORY_ALIGNMENT.md`.
+- Full benchmark artifacts and manuscript-specific evidence tables are distributed separately when required by the publication.

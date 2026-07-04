@@ -213,10 +213,6 @@ FlowPepDock keeps dataset and result assumptions in explicit contract files:
 - `docs/QUICKSTART_RUNTIME.md` keeps the operational command set.
 - `docs/REPO_STATUS.md` records the active/archived boundary of the repository.
 - `docs/ACTIVE_FLOW_POSECRED_DATASETS.md` summarizes active dataset assets.
-- `docs/PAPER_REPOSITORY_ALIGNMENT.md` maps the current small-paper tables back
-  to repository result sources.
-- `docs/GITHUB_UPLOAD_DECISION.md` records which files should be committed,
-  ignored, or published as external artifacts.
 
 If dataset paths, checkpoints, or key hyperparameters change, update the contract
 files and the README in the same pull request.
