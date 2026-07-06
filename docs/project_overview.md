@@ -1,7 +1,13 @@
-# 项目总览（指向 notes）
+# Project Overview
 
-本文件已简化为指针，权威内容已归档在：
-- `notes/ARCHIVE.md`（附录A：docs/project_overview.md 原文）
+FlowPepDock is a research codebase for protein-peptide docking. It provides:
 
-说明：
-- `docs/project_overview.md` 仅做入口跳转，避免与台账重复。
+- a flow-based peptide pose generation and docking pipeline;
+- ESM-supported protein and peptide feature construction;
+- optional PyRosetta `ref2015` interface rescoring;
+- an optional PoseCred-IPG module for pose ranking;
+- small public examples and runtime CSV manifests for installation checks.
+
+The repository is organized as a source-code release. Large checkpoints,
+complete structural datasets, generated results, and manuscript-specific
+artifacts should be distributed separately.

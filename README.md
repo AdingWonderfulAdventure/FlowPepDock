@@ -73,7 +73,8 @@ Before running full experiments, prepare the following assets:
   `data/runtime_tables/flow_train_rel.csv`,
   `data/runtime_tables/flow_val_rel.csv`,
   `data/runtime_tables/flow_infer_test536_rel.csv`
-- Canonical strict-536 structural assets under `data/processed_test30/`
+- Full benchmark structural assets, if running beyond the included smoke-test
+  examples.
 - PoseCred-IPG assets and snapshot files under `posecred_ipg/`, if the rescoring
   module is used.
 
@@ -141,13 +142,9 @@ Default values in `default_inference_args.yaml`:
 - `amp: false`
 - `prealign_to_native_center: true`
 
-When using the tclip checkpoint
-`logs/full_abs_tight_tclipped028_ddp1234567_bs10_20260414_153322/flow_esm_best.pt`,
-the current preferred `flow_num_steps` is `3`.  The justification is documented
-in:
-
-- `results/tclip028_step_sweep_stratified128_g123456_20260424_174749/`
-- `results/tclip028_n_sweep_step03_stratified96_n5to30_bs160_g123_20260424_213246/`
+Alternative checkpoints may require different inference settings. Record the
+checkpoint path, checksum, and effective `flow_num_steps` when reporting custom
+or reproduced benchmark runs.
 
 ### Flow Training Smoke Test
 

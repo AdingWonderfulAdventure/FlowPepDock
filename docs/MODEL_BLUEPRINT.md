@@ -1,7 +1,21 @@
-# 模型蓝图（指向 notes）
+# Model Blueprint
 
-本文件已简化为指针，权威内容已归档在：
-- `notes/ARCHIVE.md`（附录B：docs/MODEL_BLUEPRINT.md 原文）
+FlowPepDock combines a flow-based generative docking model with optional
+post-hoc pose rescoring.
 
-说明：
-- `docs/MODEL_BLUEPRINT.md` 仅做入口跳转，避免与台账重复。
+## FlowPepDock
+
+- `train_flow.py`: training entry point.
+- `inference.py`: inference entry point.
+- `models/`: model definitions.
+- `dataset/`: protein and peptide feature builders.
+- `utils/`: geometry, SO(3), sampling, and flow-matching utilities.
+
+## PoseCred-IPG
+
+The optional `posecred_ipg/` module provides graph-based pose scoring and
+ranking utilities. Its public entry points are documented in
+`posecred_ipg/README.md` and `posecred_ipg/QUICKSTART.md`.
+
+Model checkpoints are external release assets and are not stored in normal Git
+history.

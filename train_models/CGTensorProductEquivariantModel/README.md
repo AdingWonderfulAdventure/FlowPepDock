@@ -10,11 +10,8 @@ train_models/CGTensorProductEquivariantModel/flowpepdock_best.pt
 ```
 
 The checkpoint is intentionally not tracked by Git because it is a large binary
-artifact. For the normal source release, download and extract
-`FlowPepDock_external_assets.tar.gz` from the repository root.  The archive
-places this checkpoint at the exact path above and also installs the default
-PoseCred-IPG checkpoint.  Reference file sizes and SHA256 hashes are listed in
-`docs/RELEASE_ASSETS.md`.
+artifact. Download it from the external release location described in
+`docs/RELEASE_ASSETS.md`, then place it at the exact path above.
 
 After copying the file, verify the local layout from the repository root:
 
@@ -23,5 +20,6 @@ test -s train_models/CGTensorProductEquivariantModel/flowpepdock_best.pt
 test -f train_models/CGTensorProductEquivariantModel/model_parameters.yml
 ```
 
-The default `flowpepdock_best.pt` checkpoint uses the default inference settings
-documented in `default_inference_args.yaml` and `README.md`.
+The default checkpoint filename is `flowpepdock_best.pt`; place it in this
+directory before running the default inference commands documented in
+`default_inference_args.yaml` and `README.md`.
