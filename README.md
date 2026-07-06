@@ -69,9 +69,6 @@ Before running full experiments, prepare the following assets:
   `train_models/CGTensorProductEquivariantModel/flowpepdock_best.pt`
 - PoseCred-IPG checkpoint, if the rescoring module is used:
   `posecred_ipg/final_exports/graph_main_best.pt`
-- Optional SO(3) cache files:
-  `.so3_omegas_array2.npy`, `.so3_cdf_vals2.npy`,
-  `.so3_score_norms2.npy`, `.so3_exp_score_norms2.npy`
 - Flow runtime tables:
   `data/runtime_tables/flow_train_rel.csv`,
   `data/runtime_tables/flow_val_rel.csv`,
@@ -84,6 +81,9 @@ The current dataset and checkpoint policy is defined in
 `FLOW_DATASET_CONTRACT.md`.  The release-asset placement and checksum policy is
 listed in `docs/RELEASE_ASSETS.md`.  Read both before running training,
 inference, or evaluation jobs.
+
+SO(3) sampling cache files are generated automatically on first run when absent;
+they do not need to be downloaded as release assets.
 
 For a GitHub-style source release, the two required checkpoint files should be
 distributed outside Git as `FlowPepDock_external_assets.tar.gz`.  Extract that

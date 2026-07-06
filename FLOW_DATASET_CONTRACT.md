@@ -28,13 +28,13 @@ from normal Git history:
   `train_models/CGTensorProductEquivariantModel/flowpepdock_best.pt`
 - Optional PoseCred-IPG checkpoint:
   `posecred_ipg/final_exports/graph_main_best.pt`
-- Optional SO(3) cache files:
-  `.so3_omegas_array2.npy`, `.so3_cdf_vals2.npy`,
-  `.so3_score_norms2.npy`, `.so3_exp_score_norms2.npy`
 - Full receptor and peptide structure collections for non-smoke-test runs.
 
 The expected release-asset layout and checksum policy are documented in
 `docs/RELEASE_ASSETS.md`.
+
+SO(3) sampling cache files are local runtime caches. If absent, FlowPepDock
+computes and writes them automatically during the first run.
 
 ## Smoke-Test Input
 
